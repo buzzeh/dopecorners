@@ -1,0 +1,9 @@
+Package: com.dopeteam.dopecorners
+Name: DopeCorners
+Depends: mobilesubstrate
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Change the radius of sheet and alert corners throughout iOS! For iOS 9.
+Maintainer: DopeTeam
+Author: DopeTeam
+Section: Tweaks

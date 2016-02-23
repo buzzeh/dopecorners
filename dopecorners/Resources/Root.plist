@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>General</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>enabled.png</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.dopeteam.dopecorners</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Custom Radius</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<integer>4</integer>
+			<key>defaults</key>
+			<string>com.dopeteam.dopecorners</string>
+			<key>key</key>
+			<string>radius</string>
+			<key>label</key>
+			<string>Corner Rad</string>
+			<key>showValue</key>
+			<true/>
+			<key>min</key>
+			<real>0</real>
+			<key>max</key>
+			<integer>100</integer>
+			<key>PostNotification</key>
+			<string>com.dopeteam.dopecorners/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>respring.png</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Save Changes and Respring</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>© 2016 DopeTeam</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>person.png</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Credits</string>
+			<key>detail</key>
+			<string>dopecornersMakersListController</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>DopeCorners</string>
+</dict>
+</plist>
